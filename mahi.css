@@ -1,0 +1,75 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0px;
+    position: relative;
+}
+.container{
+    position:relative;
+}
+
+.box{
+    border: pink;
+    background-color: pink;
+    padding: 100px;
+    border-radius: 20px;
+    position: relative;
+    
+    
+}
+button{border: 0px;
+    background-color: pink;
+   position: absolute;
+   bottom: 20px;
+   right: 10px;
+    
+
+}
+button:hover{
+    
+    border: 0px;
+    background-color: pink;
+    color: blue;
+    
+}
+
+pre{font-size: 20px;
+    
+}
+img{
+    width: 200px;
+    position: absolute;
+
+
+}
+#a {
+    top: 180px;
+    left: 420px;
+}
+#b {
+    top: 220px;
+    left: -200px;
+}
+#c {
+    bottom: 100px;
+    right: 420px;
+}
+#d {
+    bottom:310px;
+    left: 50%;
+}
+#e {
+    bottom: 50%;
+    left: 420px;
+}
+#f {
+    bottom: 310px;
+    left: 0%;
+}
+#g{
+    top: 310px;
+    left:40px;
+    width:350px;
+}
