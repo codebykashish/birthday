@@ -3,10 +3,27 @@ body{
     justify-content: center;
     align-items: center;
     height: 600px;
+background-color: rgb(187, 187, 250);
+}
+.container{
+    padding: min(5em , 10%);
+    position:relative;
 
 }
-
 .box{
     background-color: rgb(43, 43, 177);
+    padding: 100px;
+    color:white;
+    font-size: 20px;
+    font-style: normal;
+    font-family: cursive;
+    
 
+
+}
+button{
+    border: 0;
+    position:absolute;
+    bottom: 70px;
+    left: 350px;
 }
